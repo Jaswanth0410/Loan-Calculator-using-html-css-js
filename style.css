@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5;
+}
+
+.container{
+    width: 600px;
+    height: 450px;
+    background-color: #445a6f;
+    color: #ffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper div{
+    background-color: #a63946;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+}
+
+input :focus{
+    outline: none;
+}
+
+h2{
+    margin-top: 40px;
+}
